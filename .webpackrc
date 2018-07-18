@@ -1,0 +1,14 @@
+{
+  "extraBabelPlugins": [
+    ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }]
+  ],
+    "proxy": {
+    "/sundax": {
+      "target": "https://www.sundax.top/",  
+      "changeOrigin": true,
+      "pathRewrite": {
+        "": ""
+      }
+    }
+  }
+}
